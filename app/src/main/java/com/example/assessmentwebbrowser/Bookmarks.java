@@ -17,24 +17,17 @@ public class Bookmarks extends AppCompatActivity {
 
     DBBookmarkshandler dbBookmarkshandler =new DBBookmarkshandler(this,null,null,1);
     WebView mywebView;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 //        setContentView(R.layout.activity_bookmarks);
         setContentView(R.layout.activity_bookmarks);
-
+        ListView listView =(ListView)findViewById(R.id.bookmarkslistview);
         final List<String> bookmarks=dbBookmarkshandler.databaseToString();
         if(bookmarks.size()>0){
-
-
             ArrayAdapter adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,bookmarks);
-            ListView listView =(ListView)findViewById(R.id.bookmarkslistview);
             listView.setAdapter(adapter);
-
-            listView.setAdapter(adapter);
-
+            //listView.setAdapter(adapter);
             listView.setOnItemClickListener(
                     new AdapterView.OnItemClickListener() {
                         @Override

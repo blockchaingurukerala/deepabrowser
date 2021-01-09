@@ -283,6 +283,7 @@ DBBookmarkshandler dbBookmarkshandler;
         switch (item.getItemId()){
             case R.id.history:
                 Intent historyIn= new Intent(MainActivity.this,History.class);
+                startActivity(historyIn);
             break;
         }
 
@@ -292,7 +293,12 @@ DBBookmarkshandler dbBookmarkshandler;
                 startActivity(bookmarksIn);
                 break;
         }
-
+        switch (item.getItemId()){
+            case R.id.about:
+                Intent aboutIn= new Intent(MainActivity.this, About.class);
+                startActivity(aboutIn);
+                break;
+        }
 //        switch (item.getItemId()){
 //            case R.id.desktop:
 //                break;

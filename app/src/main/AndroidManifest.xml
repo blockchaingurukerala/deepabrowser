@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AssessmentWebBrowser"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Bookmarks"></activity>
+        <activity android:name=".About"></activity>
+        <activity android:name=".Bookmarks" />
         <activity android:name=".History" />
         <activity android:name=".MainActivity">
             <intent-filter>
