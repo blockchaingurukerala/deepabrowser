@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_left"
+        android:icon="@drawable/ic_baseline_arrow_left_24"
+        android:title="@string/title_Back" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/title_Home" />
+
+    <item
+        android:id="@+id/navigation_right"
+        android:icon="@drawable/ic_baseline_arrow_right_24"
+        android:title="@string/title_Forward" />
+
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="@string/dashboard" />
+
+</menu>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Assessment Web Browser</string>
+    <string name="title_Back">Back</string>
+    <string name="title_Home">Home</string>
+    <string name="title_Forward">Forward</string>
+    <string name="home_Text">Home</string>
+    <string name="home_text">Home</string>
+    <string name="enter_url">Enter URL</string>
+    <string name="r">R</string>
+    <string name="go">Go</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="history">History</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="download">Download</string>
+    <string name="scanqrcode">Scan Qr Code</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+</resources>
